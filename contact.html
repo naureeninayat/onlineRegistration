@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title> Online Registration</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="container">
+<div id="header">  Online Registration </div>
+<div id="nav">
+	<ul>
+		<li><a href="index.html"> Home </a></li>
+		<li><a href="image.html"> Gallery </a></li>
+		<li><a href="admin_login.html"> Login </a></li>
+		<li><a href="user_registration.html"> Registration </a></li>
+		<li><a class ="active" href="contact.html"> Contact </a></li>
+	</ul>
+</div>
+<div id="Slider" align = "center"> 
+	<h1>Form</h1>
+    
+
+	<form method = "post" action = >
+		<table width = 500px border = 3px align = 'center'>
+			<tr>
+				<th bgcolor = 'yellow' colspan = 5>
+					Contact Us
+				</th>
+			</tr>
+			<tr>
+				<td align = 'right'>Name : </td>
+				<td><input type = 'text' name = 'name'>
+					<font color = 'red'> </font>
+				</td>
+			</tr>
+			<tr>
+				<td align = 'right'>Email : </td>
+				<td><input type = 'email' name = 'email'>
+				<font color = 'red'>  </font>
+				</td>
+			</tr>
+			<tr>
+				<td align = 'right'>Comment : </td>
+				<td><textarea cols="22" rows="5">
+				
+				</textarea>
+			</tr>
+			<tr>
+			<td colspan = 6 align = 'center'><input type = 'submit' name = 'submit' onclick="myFunction()" value = 'Send'></td>
+			</tr>
+		</table>
+	</form>
+</div>
+<div id="footer">
+	<div class="social"> 
+	Follow us on : 
+	<img src="images/FB.png" />
+	<img src="images/twitter.png" />
+	<img src="images/GPlus.jpg" />
+	</div>
+	
+	 </div>
+</body>
+</html>
+	
+<script>
+    function myFunction() {
+    alert("Your Request has been submited")
+    }
+ </script>
+    
